@@ -1,0 +1,472 @@
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Loading Screen (remove Microsoft logo)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com###MSLogo
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Top Bar Left Widget Button (remove app button, resize existing blank space)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com###O365_HeaderLeftRegion
+outlook.live.com###Region_2:style(width: 198px !important)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Top Bar Right Widget Row (remove Skype button, remove ToDo button, remove Help button, remove What's New button, remove Meet Now button, remove Note Feed button, remove QR Connect button)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com###skype_container
+outlook.live.com###owaTimePanelBtn_container
+outlook.live.com###owaHelpButton_container
+outlook.live.com###owaWhatsNewBtn_container
+outlook.live.com###owaMeetNowButton_container
+outlook.live.com###owaNoteFeedButton_container
+outlook.live.com###QrConnect_container
+outlook.live.com###teams_container
+outlook.live.com###owaTipsBtn_container
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Settings Pane (remove Close button, shrink bottom blank space)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com###flexPaneCloseButton
+outlook.live.com##.ypKu8MrQ2WQtawJCow5v:style(flex-basis: 0px !important)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Account Pane (change listed email address)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!outlook.live.com##.o365sx-neutral-dark-font._1dmG592Y5OqzezOPJJ7WBm:style(color: #8f67a2 !important)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Microsoft Edge Bar (remove bar)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com###LeftRail
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Left Sidebar
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! remove Favourites header
+outlook.live.com##div._24FpkalvW30l66zFUdkI8G:nth-of-type(1) > ._3kaE-lp56xiPtiBK5bJWgr._1PkXPyxM3Hhk5H6YNvwMa1
+outlook.live.com##div.pmwc5uk5tPkFvpQuiurt:nth-of-type(1) > .VuLGwDz4fL8EtHo7Y4kA.NQ_Mja19giwpo1gl18Gb.NtlqSw_jJO0S98lVxwe0
+!  remove "Add Favourite" button
+outlook.live.com##.LY59tV7oDi_ekjfK_th9x._3kaE-lp56xiPtiBK5bJWgr._2f5JzhIau1fYVnCdnF6jed
+! remove Groups group
+outlook.live.com##div._24FpkalvW30l66zFUdkI8G:nth-of-type(3)
+outlook.live.com##div.pmwc5uk5tPkFvpQuiurt:nth-of-type(3)
+! remove Upgrade ad
+outlook.live.com##.VPtFloqixpkkqJNcOv2T
+! remove Meet bar
+outlook.live.com##._1JIm4Uo0AjWlUDZCxFpb3K._3qa8OvFCuxvXSKgE8anB8n
+! remove app buttons
+outlook.live.com##div[class*="_3ONu7VtYLM98FWOZS0Fsvm"]
+! remove app sidebar
+outlook.live.com##._1CeAIHzID37KPlA8YSGw_o
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | New Message Bar (remove Mark all as read button)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!outlook.live.com##.root-53.ms-Button--commandBar._1ojerECVeZlAkHtklkKOj5._33rLSYbzxvhXjgYTwfjWQI.ms-Button:style(background-color: var(--headerBackground) !important)
+!outlook.live.com##.root-53.ms-Button--commandBar._1ojerECVeZlAkHtklkKOj5._33rLSYbzxvhXjgYTwfjWQI.ms-Button:style(color: #eee !important)
+!outlook.live.com##[name="Empty folder"]
+outlook.live.com##[name="Mark all as read"]
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Current Email Folder Bar (remove Favourite star)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com##.root-89._1rOY8zLxM76r6tj0sbUdp7.ms-TooltipHost
+outlook.live.com##.root-201.WGSSvGo438xSc4yKpASg.ms-TooltipHost
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Addons under Current Email Folder Bar (remove black lines in Junk/Deleted Items folders)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! outlook.live.com##div[class*="_31bXR1eMR0WD9MA0x0ze6L _3nQ6zdFv9tLFUN25QCjA8e _1upQZnqdtWsPgxz5W8T7UO"]:nth-of-type(2):style(border-top: 0px solid var(--neutralLight) !important)
+! outlook.live.com##div[class*="_31bXR1eMR0WD9MA0x0ze6L _3nQ6zdFv9tLFUN25QCjA8e _1upQZnqdtWsPgxz5W8T7UO"]:nth-of-type(3):style(border-top: 0px solid var(--neutralLight) !important)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Right Ad Bar (remove ad bar)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com##._1fti_QgAzqGWPGlqh_FSvI
+outlook.live.com##.pBKjVBVDRKIDHWS0A95I
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.live.com | Message Composition Screen (remove Premium button)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.live.com##._2o6zJjMfKVX1I8WC2SyeQW
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! https://outlook.office.com | All Outlook Changes to Algonquin Account
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+outlook.office.com###MSLogo
+outlook.office.com###O365_HeaderLeftRegion
+outlook.office.com###Region_2:style(width: 198px !important)
+outlook.office.com###skype_container
+outlook.office.com###owaTimePanelBtn_container
+outlook.office.com###owaHelpButton_container
+outlook.office.com###owaWhatsNewBtn_container
+outlook.office.com###owaMeetNowButton_container
+outlook.office.com###owaNoteFeedButton_container
+outlook.office.com###flexPaneCloseButton
+outlook.office.com##._3zl37IcmKRrapSPgIrRayL:style(flex-basis: 0px !important)
+outlook.office.com##._2PxBL_S6KFCMTya8zm3aLF.ZXaaK9lo4E9sH50KY3o0C
+outlook.office.com##div._24FpkalvW30l66zFUdkI8G:nth-of-type(1) > ._3kaE-lp56xiPtiBK5bJWgr._1PkXPyxM3Hhk5H6YNvwMa1
+outlook.office.com##.LY59tV7oDi_ekjfK_th9x._3kaE-lp56xiPtiBK5bJWgr._2f5JzhIau1fYVnCdnF6jed
+outlook.office.com##div._24FpkalvW30l66zFUdkI8G:nth-of-type(3)
+outlook.office.com##._28ithXDZzMqSN0YAG2rCVn
+outlook.office.com##._1JIm4Uo0AjWlUDZCxFpb3K._3qa8OvFCuxvXSKgE8anB8n
+outlook.office.com##div[class*="_3ONu7VtYLM98FWOZS0Fsvm"]
+outlook.office.com##._1CeAIHzID37KPlA8YSGw_o
+outlook.office.com##[name="Mark all as read"]
+outlook.office.com##.root-89._1rOY8zLxM76r6tj0sbUdp7.ms-TooltipHost
+outlook.office.com##div[class*="_31bXR1eMR0WD9MA0x0ze6L _3nQ6zdFv9tLFUN25QCjA8e _1upQZnqdtWsPgxz5W8T7UO"]:nth-of-type(2):style(border-top: 0px solid var(--neutralLight) !important)
+outlook.office.com##div[class*="_31bXR1eMR0WD9MA0x0ze6L _3nQ6zdFv9tLFUN25QCjA8e _1upQZnqdtWsPgxz5W8T7UO"]:nth-of-type(3):style(border-top: 0px solid var(--neutralLight) !important)
+outlook.office.com##._1fti_QgAzqGWPGlqh_FSvI
+outlook.office.com##._2o6zJjMfKVX1I8WC2SyeQW
+
+
+
+! for help: https://adblockplus.org/filter-cheatsheet#elementselection
+! for help: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#subjectstylearg
+
+
+
+! 2020-05-31 https://melvoridle.com
+melvoridle.com##.ml-4.mt-4.mr-4.text-center
+
+! 2020-08-20 https://app.plex.tv
+app.plex.tv##div:nth-of-type(4) > .VirtualHubScroller-hub-3Pu2m6
+
+! 2020-09-11 https://www.curseforge.com
+www.curseforge.com##section.mb-10.mx-auto.container:nth-of-type(3)
+www.curseforge.com##.sm\:h-20.h-30.relative.author-upsell.rounded.justify-between.items-center.flex.upsell
+www.curseforge.com##[href*="https://www.paypal.com"]
+www.curseforge.com##[class*="button modal-link"]:style(margin-left: auto !important)
+
+! 2020-09-11 https://socialclub.rockstargames.com
+socialclub.rockstargames.com##[href="/rockstar-games-launcher"]
+
+! 2020-09-11 https://www.purolator.com
+www.purolator.com##.col-lg-3.col-12.region--content-footer-2.region
+www.purolator.com##.col-md-3.col-12.region--content-footer-4.region
+
+! 2020-09-11 https://www.reddit.com
+www.reddit.com##._2jJNpBqXMbbyOiGCElTYxZ
+www.reddit.com##._3HwENDlXUGoAOP6zptLsmD
+
+! 2020-09-14 https://www.fiverr.com
+www.fiverr.com##.logged-in-homepage-top
+
+! 2020-09-17 https://fortnite.gg
+fortnite.gg##.ad
+
+! 2020-09-21 http://lelezardpret.mystrikingly.com
+lelezardpret.mystrikingly.com##.animate-show.fixed.logo-link
+
+! 2020-09-23 https://crackwatch.com
+crackwatch.com##div[style$="text-align: center;"]:has( > div > a[rel="nofollow noopener noreferrer"] span[style*="background-image"][style*="base64"])
+
+! 2020-09-24 https://www.chapters.indigo.ca
+www.chapters.indigo.ca##.product-list__line-item-promotion.special-offer-carousel__container
+www.chapters.indigo.ca##.love-of-reading__container
+www.chapters.indigo.ca##.header__marketing-messages
+www.chapters.indigo.ca###oo_tab
+
+! 2020-10-17 https://www.ign.com
+www.ign.com##.\38 mmdndbiysbl
+www.ign.com##.twabqsfcxtuw
+
+! 2020-12-11 https://calendar.google.com
+calendar.google.com##.Kk7lMc-QWPxkf-LgbsSe-haAclf
+calendar.google.com##.qbOKL-NBtyUd.X8eWK.qOsM1d
+calendar.google.com##.bMWlzf
+
+! 2021-01-12 https://www.facebook.com
+! Top Bar Nav Icons
+www.facebook.com##.j83agx80.byvelhso.taijpn5t
+! Main Page Say Hi Box
+www.facebook.com##div.sjgh65i0 > div > div > div > div > .k4urcfbm.l9j0dhe7.j83agx80
+! Legal Info
+www.facebook.com##.pfnyh3mw.discj3wi.hv4rvrfc.ihqw7lf3.dati1w0a
+! Main Page Sidebar COVID-19 Information Center
+www.facebook.com##li:has-text(/^COVID-19 Information Center/i)
+! Main Page Sidebar Ads
+www.facebook.com##li:has-text(/^Ads/i)
+! Main Page Sidebar Campus
+www.facebook.com##li:has-text(/^Campus/i)
+! Main Page Sidebar Crisis Response
+www.facebook.com##li:has-text(/^Crisis Response/i)
+! Main Page Sidebar Facebook Pay
+www.facebook.com##li:has-text(/^Facebook Pay/i)
+! Main Page Sidebar Fundraisers
+www.facebook.com##li:has-text(/^Fundraisers/i)
+! Main Page Sidebar Games
+www.facebook.com##li:has-text(/^Games/i)
+! Main Page Sidebar Gaming Video
+www.facebook.com##li:has-text(/^Gaming Video/i)
+! Main Page Sidebar Jobs
+www.facebook.com##li:has-text(/^Jobs/i)
+! Main Page Sidebar Live Videos
+www.facebook.com##li:has-text(/^Live Videos/i)
+! Main Page Sidebar Messenger
+www.facebook.com##li:has-text(/^Messenger/i)
+! Main Page Sidebar Messenger Kids
+www.facebook.com##li:has-text(/^Messsenger Kids/i)
+! Main Page Sidebar Movies
+www.facebook.com##li:has-text(/^Movies/i)
+! Main Page Sidebar Offers
+www.facebook.com##li:has-text(/^Offers/i)
+! Main Page Sidebar Tournaments
+www.facebook.com##li:has-text(/^Tournaments/i)
+! Main Page Right Side Friends List
+www.facebook.com##.czl6b2yu.stjgntxs.ni8dbmo4.qbu88020.o387gat7.hlyrhctz.fer614ym.dp1hu0rb.rirtxc74.pad24vr5.du4w35lb.lpgh02oy.rq0escxv
+www.facebook.com##.hlyrhctz.be9z9djy.stjgntxs.ni8dbmo4.fer614ym.dp1hu0rb.rirtxc74.pad24vr5.qbu88020.o387gat7.du4w35lb.lpgh02oy.rq0escxv
+! Main Page Create Post Box
+www.facebook.com##.ejjq64ki.abvwweq7.oh7imozk.d2edcug0 > div.sjgh65i0
+! Main Page Sponsored Posts
+! See Custom Filter List
+! All Pages Top Bar
+www.facebook.com##.tkr6xdv7.n7fi1qx3.poy2od1o.j9ispegn.kr520xx4
+
+! 2021-01-24 https://www.flaticon.com
+www.flaticon.com###button_panel
+www.flaticon.com##.button--icon.bg-pinterest.button--pinterest.button--sm.button
+www.flaticon.com##.pinterest--button.mg-right-lv2
+www.flaticon.com###share-btn
+www.flaticon.com##.hide-mobile
+www.flaticon.com##.test--a.detail__sidebar__banner-premium
+www.flaticon.com##.mg-left-lv2.popover-share.popover.share
+www.flaticon.com###form_valuation
+www.flaticon.com###campaign-head
+www.flaticon.com###bn-icon-list
+www.flaticon.com###bn-icon-list-second
+
+! 2021-01-25 https://www.flaticon.com
+www.flaticon.com###fi-premium-sp-freepik
+
+! 2021-04-30 https://www.vexels.com
+www.vexels.com##.no-pro-content.content-istock.blk--ad.blk
+www.vexels.com##div.col-lg-3.col-md-12.col-sm-12.col-xs-12:nth-of-type(3)
+www.vexels.com##div.col-lg-3.col-md-12.col-sm-12.col-xs-12:nth-of-type(2) > .precio-blanco
+www.vexels.com###free_download_available > .posicion-more-details.attribution-frm__details
+www.vexels.com###free_download_available > h4
+www.vexels.com###free_download_available > h2
+www.vexels.com###sticky-Left-Banner
+www.vexels.com##.v-header__social
+www.vexels.com##.social__links--after.social__links
+www.vexels.com##.content-istock.blk--ad.blk
+www.vexels.com##.popup__download.popup > .popup__main > .popup__main-title > span
+www.vexels.com##.intercom-lightweight-app
+www.vexels.com##.grecaptcha-badge
+www.vexels.com##.no-pro-content.btn-plain--small.btn-plain
+www.vexels.com###buy_commercial
+www.vexels.com##.pricing
+www.vexels.com##.v-footer__social
+www.vexels.com##.v-footer__newsletter
+
+! 2021-05-20 https://icons8.com
+icons8.com##.custom-padding.is-body.app-page-section > div > div > .ads
+icons8.com##.ads
+
+! 2021-06-28 https://www56.zippyshare.com
+zippyshare.com##.lang
+zippyshare.com##span:nth-of-type(3)
+
+! 2021-06-28 https://app.plex.tv
+app.plex.tv##[class*="MetadataPosterCardActions-playButton-"]
+
+! 2021-08-13 https://www.twitch.tv
+www.twitch.tv##.prime-offers.bRNxUb.Layout-sc-nxg1ff-0
+
+! 2021-08-19 https://webstatic-sea.mihoyo.com
+webstatic-sea.mihoyo.com##.bbs-qr
+
+! 2021-08-26 https://podcastaddict.com
+podcastaddict.com##[href^="https://play.google.com/store/apps/details"]
+podcastaddict.com##.margintop5.centertext.mt.row
+podcastaddict.com##.twitter-share-button
+podcastaddict.com##.fb-xfbml-parse-ignore
+podcastaddict.com##a.nav-link.nav-item:nth-of-type(3)
+podcastaddict.com##a.nav-link.nav-item:nth-of-type(2)
+
+! 2021-08-27 https://podcastaddict.com
+podcastaddict.com##.margintop5.centertext.verticalalign.titlestack
+
+! 2021-09-05 https://www.dropbox.com
+www.dropbox.com##.account-header-silo
+
+! 2021-09-23 https://dg.dhgate.com
+dg.dhgate.com##.drainagebanner
+
+! 2021-11-09 https://www.linkedin.com
+www.linkedin.com##.global-nav__primary-item--divider.global-nav__primary-item
+www.linkedin.com##.global-nav__spotlight.global-nav__primary-item
+
+! 2021-12-08 https://filecrypt.co
+filecrypt.co##.filltheadblockqueue3
+
+! 2022-01-24 https://www.dhgate.com
+www.dhgate.com##.drainagebanner
+
+! 2022-03-30 https://club-penguin-music.fandom.com
+club-penguin-music.fandom.com###WikiaBar
+
+! 2022-04-22 https://docs.google.com
+docs.google.com##.docs-meet-in-editors-entrypoint-container
+
+! 2022-05-05 https://nebula.app
+nebula.app##.react-slidedown
+nebula.app##.css-2jxvdv
+nebula.app##.css-15ruxe8
+
+! 2022-05-20 https://ahatintime.fandom.com
+ahatintime.fandom.com###WikiaBar
+
+! 2022-05-20 https://www.twitch.tv
+www.twitch.tv##.top-nav__prime.ccibQw.Layout-sc-nxg1ff-0
+www.twitch.tv##.bqkMWY.Layout-sc-nxg1ff-0
+
+! 2022-05-26 https://thetvdb.com
+thetvdb.com##.tvtime-cta
+
+! 2022-06-18 https://thetvdb.com
+thetvdb.com##.survey-trigger.global_callout
+
+! 2022-07-25 https://mail.yahoo.com
+mail.yahoo.com##._yb_vthj1._yb_hldsi
+mail.yahoo.com##.I_T.p_R.o_v.D_F
+mail.yahoo.com##._yb_vthj1._yb_hldsi
+mail.yahoo.com##.I_T.p_R.o_v.D_F
+mail.yahoo.com##.r4_P.C4_Z29WjXl.Y_eTB.E_A.Q_A.W_3vVYr.C_ZvsWfq.A_6EqO
+mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_ZvsWfq.A_6EqO
+
+! 2022-10-01 http://alex1331xela.quickconnect.to
+alex1331xela.quickconnect.to###announcement-ad
+
+! 2022-11-03 https://music.apple.com
+music.apple.com##cwc-music-upsell-banner-web
+
+! 2022-11-10 https://mega.nz
+mega.nz##.individual.mega-button
+mega.nz##.top-social-txt
+mega.nz##.top-social-bl
+
+! 2023-01-15 https://next.nexusmods.com
+next.nexusmods.com##.z-\[9\].sticky.\32 xl\:flex.items-center.flex-col.max-w-\[348px\].min-w-\[300px\].\36 50px\)\].\-.w-\[calc\(50\%.top-\[135px\].hidden
+next.nexusmods.com##section.bg-background-secondary.section
+
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you very much$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^thank you$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^thanks$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you $/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thanks, dude! $/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thanks for this\.$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Many thanks!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you so much for sharing!!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^thanks @@.+ !$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thanks so very much!!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^A good movie, thanks for the high quality!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you for including the extras\/featurettes $/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thanks!!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thanks$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you!!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank You\.$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you so much!!!$/))
+fora.snahp.eu##body>div.wrap>div.page-body>div.post:has(div.inner>div.postbody div.content:has-text(/^Thank you for upping this!$/))
+
+! 2023-02-27 https://www.twitch.tv
+! old detection method   www.twitch.tv##div.hZLfAO.Layout-sc-1xcs6mc-0:has(div>button>div>div>div>h3.tw-title:has-text(//))
+! Block List:
+www.twitch.tv##p[class^=CoreText-sc][class*=dvalrg]:has-text(/^Lost Ark$|^ArcheAge$|^SMITE$|^Conqueror\'s Blade$|^Out of the Park Baseball 23$|^Out of the Park Baseball 24$|^Albion Online$|^Hunt: Showdown$|^World of Warships$|^Arena Breakout$|^World of Tanks$|^GODDESS OF VICTORY: NIKKE$|^FIFA 23$|^Rise Online$|^Eternal Return$|^Infestation: The New Z$|^NARAKA: BLADEPOINT$|^Madden NFL 23$|^Paladins$|^Call of Duty: Modern Warfare II$|^Black Desert$|^Guild Wars 2$|^Tanki Online$|^MLB The Show 23$|^Crossfire$|^Freestyle Football R$|^STALCRAFT$|^The Cycle: Frontier$|^Tower of Fantasy$|^WWE SuperCard$|^World War Z: Aftermath$|^Goose Goose Duck$|^Krunker$|^Warframe$|^Caliber$|^Gundam Evolution$|^War Thunder$|^Vampire: The Masquerade - Bloodhunt$|^XDefiant$|^Tom Clancy\'s The Division 2$|^LEAP$|^Torchlight: Infinite$|^Dofus$|^HypeSquad$|^Trust No Bunny$|^OUTERPLANE$|^Veiled Experts$|^With Your Destiny$|^UNDECEMBER$|^New World$|^Out of the Park Baseball 25$|^EVE Online$|^Path of Exile 2$|^Kirka.io$|^Off The Grid$|^Mir Korabley$|^Once Human$|^Shakes and Fidget$|^Lineage II$|^Warcraft Rumble$|^Modern Warships$|^Soulmask$|^Parallel$|^NBA 2K25$|^EA Sports FC 25$|^Delta Force$|^Throne and Liberty$|^The First Descendant$|^SMITE 2$|^SUPERVIVE$|^Mortal Online 2$|^THE FINALS$|^Stream Raiders$|^Kakele Online: MMORPG$|^Warhammer 40,000: Warpforge$|^Superball$|^Warhammer 40,000: Darktide$|^Warhammer 40,000: Space Marine II$|^Stampede Racing Royale$|^World of Tanks Console$|^Coryphaeus Championships$|^Pokémon UNITE$|^Honkai: Star Rail$|^Honkai Impact 3rd$|^Madden NFL 25$|^Embervale.TV$|^Zenless Zone Zero$|^Predecessor$|^Dark and Darker Mobile$|^33 Immortals$|^Myth of Empires$|^Somnis: Rumble Rush$|^Terminull Brigade$|^Apex Legends$|^Assassin\'s Creed Shadows$|^Wuthering Waves$|^Mini Royale$|^Warhammer Online: Age of Reckoning$|^RavenQuest$|^Out of the Park Baseball 26$|^Pokémon Trading Card Game Live$|^Steel Hunters$|^Call of Duty: Warzone$|^Blade & Soul NEO$|^Fishing Planet$|^Wild Assault$|^Skull and Bones$|^STALCRAFT: X$|^NextWorld2$|^Snowbreak: Containment Zone$|^Metin2$|^Epic Seven$|^UFL$|^PUBG Mobile$|^PGA TOUR 2K25$|^Conan Exiles$|^Ghosts of Tabor$|^Last Epoch$|^Dark and Darker$|^MARVEL Strike Force$|^Portal Fantasy$|^Rivals of Aether II$|^Ravendawn$|^Neighbors: Suburban Warfare$|^ChatTDT: Tower Defense Twitch$|^The Elder Scrolls Online$|^EA Sports College Football 25$|^Warborne: Above Ashes$|^Insurgency: Sandstorm$|^Wind Fantasy: NeXus$|^Rennsport$|^Treeverse$|^Infinity Nikki$|^War Robots: Frontiers$|^Towerborne$|^Arena Breakout: Infinite$|^Diablo IV$|^FragPunk$|^Rust$|^Rush Royale$|^Game of Thrones: Kingsroad$|^Crystal of Atlan$|^Escape from Tarkov: Arena$|^Gray Zone Warfare$|^The Quinfall$|^PAYDAY 2$|^PAYDAY 3$|^NBA 2K26$|^Sonic Rumble Party$|^The Seven Deadly Sins: Origin$|^FBC: Firebreak$|^Dragon Ball Gekishin Squadra$|^Blue Protocol: Star Resonance$|^Viking Rise$|^Voyagers of Nera$|^Tom Clancy\'s The Division: Resurgence$|^Where Winds Meet$|^Hearthstone$|^Kakele Online - MMORPG$|^Coin Pusher Live$|^Wolvesville$|^Mobile Dungeon$|^Splinterlands$|^MARVEL SNAP$|^Stream Arena RPG$|^Out of the Park Baseball 27$|^Brawlhalla$|^EA Sports FC 26$|^Active Matter$|^Halo Infinite$|^MARVEL Contest of Champions$|^Legend of YMIR$|^Dragonheir: Silent Gods$|^Standoff 2$|^Mir Tankov$|^Contractors Showdown: ExfilZone$|^FINAL FANTASY XIV ONLINE$|^For Honor$|^Windrose$|^Last Flag$|^Mongil: Star Dive$|^Star Hunt$|^The Midnight Walkers$|^Coin Pusher World$|^Tides of Tomorrow$|^Mahjong Soul$|^Enshrouded$|^North Hunt$|^ARKNIGHTS: ENDFIELD$|^PRAGMATA$|^BitCraft Online$/|^Marbles on Stream$|^The Fish Shack$|^Sumrak$|^Hunt Club On Stream$|^NTE: Neverness to Everness$|^Doomsday: Last Survivors$|^DRAGON BALL GEKISHIN SQUADRA$|^Clair Obscur: Expedition 33$|^KILLER INN$|^RF Online Next$|^World of Tanks: HEAT$|^Stalzone$|^Ninja Must Die$|^FELLOWSHIP$|^Hell Clock$|^Anno 117: Pax Romana$|^GOALS$|^Soulframe$|^Night Crows$|^Ascend to ZERO$|^Granblue Fantasy: Relink$|^BitCraft Online$|^Call of Duty: Black Ops 7$|^Halo: The Master Chief Collection$|^DEAD OR ALIVE 6 Last Round$|^Sand: Raiders Of Sophie$|^Mistfall Hunter$|^Star Citizen$|^ZeroSpace$|^Sponge Break$|^DOFUS Touch$|^Hunt: Showdown 1896$|^Ragnarok Online$|^Ragnarok Origin: Classic$|^Warhounds$|^Dragonkin: The Banished$|^MLB The Show 26$|^Legion TD 2$|^Madden NFL 27$|^Escape from Tarkov$|^Deceit 2$|^EA Sports College Football 27$|^Medivia Online$|^Cash is King!$|^REMATCH$|^Path of Exile$|^Persona 5 Royal$|^Persona 4 Golden$|^PERSONA3 RELOAD$|^Shin Megami Tensei V: Vengeance$|^Metaphor: ReFantazio$|^Relic Arena$|^CONTROL Resonant$|^RuneScape: Dragonwilds$|^EA Sports FC 27$|^WARDOGS$|^The Blood of Dawnwalker$/):upward(6)
+! Highlight List:
+www.twitch.tv##p[class^=CoreText-sc][class*=dvalrg]:has-text(/^Fortnite$|^Genshin Impact$|^Overwatch 2$|^VALORANT$|^Rocket League$|^Destiny 2$|^Hogwarts Legacy$|^Nitro: Stream Racing$|^No Man\'s Sky$|^League of Legends$|^Super Animal Royale$|^World of Warcraft$|^Don\'t Starve Together$|^Disney Dreamlight Valley$|^HUMANKIND$|^West Hunt$|^King of the Castle$|^Summoners War: Chronicles$|^Dungeon Defenders II$|^Cult of the Lamb$|^Dead Island 2$|^Race Day Rampage$|^Elite: Dangerous$|^Project Genesis$|^KartRider: Drift$|^Tom Clancy\'s Rainbow Six Siege$|^Marvel Rivals$|^MultiVersus$|^Planet Coaster 2$|^Marvel Snap$|^Sea of Thieves$|^Star Wars: The Old Republic$|^Sid Meier\'s Civilization VII$|^Dead by Daylight$|^Splitgate 2$|^Pokémon Trading Card Game Pocket$|^ARC Raiders$|^Grand Theft Auto V$|^Palia$|^Minecraft$|^Rainbow Six Siege$|^Phasmophobia$|^Palworld$|^Goblin Cleanup$|^MECCHA CHAMELEON$|^ROBLOX$|^Aniimo$/):style(color: var(--color-text-link) !important)
+! Block Subscribe Drops
+www.twitch.tv##div[class^=Layout-sc][class*=gPbJcR]:upward(6):has(:scope div:has-text(/Subscribe to Redeem/)):not(:has(:scope > * > *:has(:has-text(/Watch to Redeem/))))
+!Block Drop Information
+www.twitch.tv##strong[class^=CoreText-sc][class*=QdNyA]:has-text(/Progress & Redemption/):upward(3)
+
+www.twitch.tv##div[data-test-selector="awarded-drop__drop-count"]:has-text(/2|3|4|5|6|7|8|9|10/):style(color: var(--color-text-link) !important)
+!www.twitch.tv##div.Layout-sc-1xcs6mc-0.caYeGJ:has-text(/-/)
+www.twitch.tv##div.tLnUb.Layout-sc-1xcs6mc-0>div>div>p:has-text(/^Connection$/):upward(3)
+www.twitch.tv##div.iIkEuj.Layout-sc-1xcs6mc-0>div>div>p:has-text(/^Progress & Redemption$/):upward(3)
+www.twitch.tv##div.cCiAFF.Layout-sc-1xcs6mc-0>a>div>div:has-text(/^About This Drop$/):upward(3)
+www.twitch.tv##div.tLnUb.Layout-sc-1xcs6mc-0:style(margin-bottom: 0 !important)
+www.twitch.tv##div.hPpOis.Layout-sc-1xcs6mc-0:style(margin-bottom: 0 !important)
+www.twitch.tv##div.esQHfB.Layout-sc-1xcs6mc-0:style(padding: 0 !important)
+www.twitch.tv##div.cCiAFF.Layout-sc-1xcs6mc-0:style(padding: 0 !important)
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.cfqzLo.drop-details__label
+www.twitch.tv##div.Layout-sc-1xcs6mc-0.fVcPlA
+www.twitch.tv##span.feJdGm.CoreText-sc-1txzju1-0:style(color: var(--color-text-live) !important)
+! Closed Drop Campaigns
+www.twitch.tv##h4:has-text(/Closed Drop Campaigns/):upward(2)
+www.twitch.tv##h4:has-text(/Closed Drop Campaigns/):upward(3)>div:last-child.Layout-sc-1xcs6mc-0
+www.twitch.tv##p:has-text(/This reward is no longer available./):upward(9)
+! trying to get all steps on same line
+!www.twitch.tv##div.Layout-sc-1xcs6mc-0.ScTypeset-sc-i73f0c-0.dRZPzM.flfwOo.tw-typeset>ul>li:not(:first-child):has-text(/.+/):xpath(./following-sibling::li[1][not(preceding-sibling::li)]):style(display: none;)
+!www.twitch.tv##div.Layout-sc-1xcs6mc-0.ScTypeset-sc-i73f0c-0.dRZPzM.flfwOo.tw-typeset>ul>li:not(:first-child):has-text(/.+/):xpath(./preceding-sibling::li[1][not(following-sibling::li)]):not(:first-child):style(display: none;)
+!www.twitch.tv##ul > li:not(:first-child):has-text(/.+/)::after:style(content: ", ";)
+!www.twitch.tv##div.Layout-sc-1xcs6mc-0.ScTypeset-sc-i73f0c-0.dRZPzM.flfwOo.tw-typeset>ul>li:not(:first-child):has-text(/.+/):style(display: inline; margin-right: 5px;)
+
+! 2023-09-13 https://1337x.to
+1337x.to##.bitcoin
+1337x.to##[href="https://bit.ly/3QPx131"]
+
+! 2023-09-13 https://torrentgalaxy.to
+torrentgalaxy.to##[href^="/zub.pnp"]
+
+! 2023-09-21 https://outlook.live.com !
+outlook.live.com##.GssDD
+
+! 2023-11-02 https://app.plex.tv
+app.plex.tv##._1v25wbqk8._1v25wbq1c._1v25wbq1g.ineka910.ineka91.ineka9u.ineka90:has-text(/^Available On Your Services$|^Available on Plex$|^Trending On|^Trending on|^Released This Week in History$/):upward(5)
+
+! 2024-01-20 https://www.bing.com
+www.bing.com##.b_footer
+www.bing.com###fbpgbt
+
+! 2024-04-11 https://www.deviantart.com
+www.deviantart.com##._19rNE.CGwW3
+||www.deviantart.com/_nsfgfb/?realEstateId=7762cc44-45ad-436a-b170-f4dc4426f5ae&theme=dark&userGuid=61d6a502-b45a-4378-ae28-feb579d014ba&biClientId=09b05678-457e-587c-2e58-5f2d6e4d81eb&biClientIdSigned=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiaUNsaWVudElkIjoiMDliMDU2NzgtNDU3ZS01ODdjLTJlNTgtNWYyZDZlNGQ4MWViIiwidHMiOjE3MTI4NjQ4MDcsInVzZXJVdWlkIjoiNjFkNmE1MDItYjQ1YS00Mzc4LWFlMjgtZmViNTc5ZDAxNGJhIn0.Vte6ANTHqrpAE7ltAKrYc5YOfhp7F1NDUvNoT_Im6ko&newApi=2&platform=desktop$subdocument
+www.deviantart.com##._2y4EE._3tNAR.vvI-A._2LoZw.reset-link
+www.deviantart.com##._2nX5V
+
+! Dec 6, 2024 https://outlook.live.com
+
+! Dec 6, 2024 https://outlook.live.com
+
+! Dec 21, 2024 https://www.twitch.tv
+www.twitch.tv##.top-nav__prime.czRfnU.Layout-sc-1xcs6mc-0
+www.twitch.tv##div.czRfnU.Layout-sc-1xcs6mc-0:nth-of-type(5)
+www.twitch.tv##div.czRfnU.Layout-sc-1xcs6mc-0:nth-of-type(6)
+
+! Jan 5, 2025 https://app.plex.tv
+app.plex.tv##.VirtualHubScroller-hub-EpgwMo.PrePlayAvailabilityList-hub-lEPTuG
+
+! Jan 5, 2025 https://theposterdb.com
+theposterdb.com##.nav-pro-link.nav-item
+
+! Feb 6, 2025 https://www.simplebooth.com
+www.simplebooth.com##.AdCard_small__d9Wt\+.AdCard_card__KmNIM
+
+! Mar 12, 2025 https://rocketleague.fandom.com
+rocketleague.fandom.com###global-explore-navigation
+rocketleague.fandom.com##.global-top-navigation__start-new-wiki.global-top-navigation__item
+
+! Mar 12, 2025 https://w.soundcloud.com
+w.soundcloud.com##.sc-background-light.privacyPolicy
+
+! Apr 12, 2025 https://psnprofiles.com
+psnprofiles.com##.yellow.premium-bar.v-align.flex.title
+
+! Apr 25, 2025 https://www.diffchecker.com
+www.diffchecker.com##.undefined.ad-box_container__q9Jhx.hide-print
+
+! May 18, 2025 https://www.planyourroom.com
+www.planyourroom.com##[src="https://imageresizer.furnituredealer.net/img/remote/images.furnituredealer.net/img/dealer/1/upload/roomplanner/furnishnearme-banner.jpg"]
+
+! May 18, 2025 https://gta.fandom.com
+gta.fandom.com##.global-explore-navigation__nav
+gta.fandom.com##.global-top-navigation__start-new-wiki.global-top-navigation__item
+
+! Jan 11, 2026 https://www.paliatracker.com
+www.paliatracker.com##.sm\:w-\[740px\].sm\:mx-0.dark\:bg-gray-900.pl-0.bg-gray-100.border.rounded.w-auto.-mx-4.relative
+
+! Jan 31, 2026 https://www.literotica.com
+www.literotica.com##._container_1c48g_39
+www.literotica.com##section.container_2025
+
+! May 3, 2026 https://paliaparty.app
+paliaparty.app##.mt-3.max-w-\[970px\].w-full
+paliaparty.app##.my-3.max-w-\[970px\].w-full
+paliaparty.app##.mr-3.md\:block.hidden.pointer-events-auto.relative.max-w-\[600px\].min-w-\[160px\].max-h-\[970px\].min-h-\[600px\]
+paliaparty.app##.ml-3.not-sm\:hidden.pointer-events-auto.relative.max-w-\[600px\].min-w-\[160px\].max-h-\[970px\].min-h-\[600px\]
+paliaparty.app##.items-center.w-full.my-3.gap-3.flex-col.flex.max-\[1096px\]\:px-3 > .max-w-\[970px\].w-full
+paliaparty.app##.mx-auto.max-w-\[970px\].w-full
+
+! May 23, 2026 https://www.geoguessr.com
+www.geoguessr.com##.upsell-widget_purple__MGIUV.upsell-widget_horizontal__HFdiM.upsell-widget_root__1MjbJ
+www.geoguessr.com##.upsell-widget_purple__MGIUV.upsell-widget_root__1MjbJ
